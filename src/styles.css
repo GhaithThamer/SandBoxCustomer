@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bordered {
+  border: 3px solid red;
+  margin: 5px;
+  user-select: none;
+}
+
+.bordered:hover {
+  background-color: skyblue;
+  color: brown;
+  cursor: pointer;
+}
+
+.bordered:hover:active {
+  background-color: orange;
+  color: blue;
+}
