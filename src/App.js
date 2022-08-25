@@ -9,7 +9,8 @@ export default function App() {
     "ROSENHEIM",
     "BERLIN",
     "MAGDEBURG",
-    "ALTENBURG"
+    "ALTENBURG",
+    "KÖLN"
   ];
   return (
     <div className="App">
