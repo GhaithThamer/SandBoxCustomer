@@ -1,10 +1,13 @@
 import "./styles.css";
 import React from "react";
 
-
 const Customer = ({ items }) => {
-  const renderedItems = items.map((item) => {
-    return <div className="bordered">{item}</div>;
+  const renderedItems = items.map((item, index) => {
+    return (
+      <div key={index} className="bordered">
+        {item}
+      </div>
+    );
   });
   return <div>{renderedItems}</div>;
 };

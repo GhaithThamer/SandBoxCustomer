@@ -1,5 +1,5 @@
 import "./styles.css";
-import Customer from "./Customer.js";
+import List from "./List.js";
 
 export default function App() {
   const customerList = [
@@ -17,7 +17,7 @@ export default function App() {
     <div className="App">
       <h1>DM PVC</h1>
       <h2>Customers</h2>
-      <Customer items={customerList} />
+      <List items={customerList} />
     </div>
   );
 }
