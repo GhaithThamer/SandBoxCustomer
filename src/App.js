@@ -10,7 +10,8 @@ export default function App() {
     "BERLIN",
     "MAGDEBURG",
     "ALTENBURG",
-    "KÖLN"
+    "KÖLN",
+    "CHRONENBERG"
   ];
   return (
     <div className="App">
